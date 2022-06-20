@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Generate a <span>random password</span></h1>
+        <h2 class="password-display">Never use an insecure password again</h2>
+        <button id="passwordButton" class="btn">Generate passwords</button>   
+        <div class="textfields">
+            <button onclick="copyOne()" id="clipboard1" class="favi"><i class="fas fa-copy"></i></button>
+            <span class="textbox" id="password1"></span>
+            <button onclick="copyTwo()" id="clipboard2" class="favi"><i class="fas fa-copy"></i></button>
+            <span class="textbox" id="password2"></span>
+        </div>  
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!--
+    input helyén h3 volt és nem volt button
+-->
